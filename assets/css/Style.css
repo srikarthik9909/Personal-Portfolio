@@ -147,6 +147,20 @@ nav{
     background: var(--first-color);
     border-radius: 50%;
 }
+#moon {
+    margin-top: 100px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    filter: invert(1); /* Invert the colors to make it suitable for dark mode */
+    transition: filter 0.3s; /* Add a transition effect for smoother changes */
+}
+
+#moon:hover {
+    filter: invert(0.8); /* Adjust the invert value for a subtle hover effect */
+}
+
 
 
 /* ----- WRAPPER DESIGN ----- */
